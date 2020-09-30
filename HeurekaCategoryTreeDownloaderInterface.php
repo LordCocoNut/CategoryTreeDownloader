@@ -6,6 +6,6 @@ interface HeurekaCategoryTreeDownloaderInterface
 {
     const HEUREKA_TREE_CATEGORY_URL = 'https://www.heureka.cz/direct/xml-export/shops/heureka-sekce.xml';
     
-    public function toJson();
-    public function toArray();
+    public function toJson(): string;
+    public function toArray(): array;
 }
