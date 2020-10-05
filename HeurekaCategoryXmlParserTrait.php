@@ -2,6 +2,9 @@
 
 namespace RadmelPacks\Feeds\Heureka\Downloader;
 
+/**
+ * @author Ivan Puskajler aka Bonsai
+ */
 trait HeurekaCategoryXmlParserTrait
 {
     private function elementIsCategoryId()

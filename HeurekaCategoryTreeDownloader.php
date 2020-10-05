@@ -2,6 +2,9 @@
 
 namespace RadmelPacks\Feeds\Heureka\Downloader;
 
+/**
+ * @author Ivan Puskajler aka Bonsai
+ */
 class HeurekaCategoryTreeDownloader implements HeurekaCategoryTreeDownloaderInterface
 {
     use HeurekaCategoryXmlParserTrait;
